@@ -1,5 +1,7 @@
 # PL-SQL-INSTR-and-SUBSTR
 
+  Parsing a string in PL/SQL, using the INSTR and SUBSTR functions.
+
   req   utl_http.req;
   
   resp  utl_http.resp;
