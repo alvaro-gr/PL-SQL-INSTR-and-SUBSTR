@@ -1,4 +1,4 @@
-# Parsing-with-PL-SQL-INSTR-and-SUBSTR-
+# PL-SQL-INSTR-and-SUBSTR
 
 BEGIN
 
