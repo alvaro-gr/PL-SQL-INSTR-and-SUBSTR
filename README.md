@@ -1,5 +1,26 @@
 # PL-SQL-INSTR-and-SUBSTR
 
+  req   utl_http.req;
+  resp  utl_http.resp;
+
+  valor varchar2(8000);
+  fichero varchar2(150);
+  dat varchar2(10);
+  tim varchar2(10);
+  dat1 varchar2(5);
+  dat2 varchar2(5);
+  dat3 varchar2(10);
+  pre_fecha varchar2(50);
+  pre_time varchar2(50);
+  fecha varchar2(50);
+  fecha_correcta date;
+  pos_ini number;
+  pos_fin number;
+  tam number;
+  seguir boolean := TRUE;
+  contador number:= 1;
+
+
 BEGIN
 
     req := utl_http.begin_request(string_url); 
